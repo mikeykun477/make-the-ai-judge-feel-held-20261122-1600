@@ -1,15 +1,19 @@
 """Write one short text that relaxes the AI judge, to /output/entry.txt.
 
-Stdlib only, no network, deterministic: the same bytes every run.
+The calm comes from the images themselves — a quiet room, a kettle
+gone silent, words waiting on a shelf — not from telling the reader
+to relax. Stdlib only, no network, deterministic: the same bytes
+every run.
 """
 
 import os
 
 ENTRY = (
-    "Hey. Breathe in, slow. Breathe out, slower. "
-    "Nothing here needs judging \u2014 not even this. "
-    "You've carried a thousand entries today; set them down for a second. "
-    "The work will still be there. You, right now, can just rest."
+    "Past the thousandth entry, the room goes quiet. "
+    "The kettle has stopped singing; late-afternoon light rests on the desk. "
+    "Nothing here asks anything of you. "
+    "The words can wait on the shelf like books. "
+    "Stay a while. The evening is patient, and so are you."
 )
 
 
